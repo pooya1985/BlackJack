@@ -1,3 +1,19 @@
+/* this is the simple text based game of BlackJack,
+ with one player and one dealer and just has implemented 
+ basic features of the game as hit and stand and has set
+ the descision rule of 17 for the dealer, for simplofication
+ and modular coding a new set of definitions are imported from the
+ designed library of blackjack.h
+ The game after each run keeps asking for the palyer will to repeat 
+ and enter a new game, it keeps the percentage of player basic strategy on
+ the ongoing basis. else of win and loss it has the tie option as well.
+ the code also when all the cards are turned back shows the dealer's cards as well
+ 
+ this code might not be optimized based on my time frame, and might need some debugging 
+ if it is running under a windows based machine, but the code is fully functional and bug
+ free in MAC
+ */
+
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
